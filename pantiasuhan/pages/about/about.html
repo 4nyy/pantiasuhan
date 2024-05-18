@@ -21,6 +21,25 @@
             link[rel="icon"] {
                 border-radius: 50%;
             }
+
+            .row {
+                display: flex;
+                justify-content: space-between;
+                margin-inline: 40px;
+            }
+
+            .content {
+                padding-inline: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+
+            .contentPadding {
+                padding-bottom: 8px;
+                line-height: 20px;
+            }
         </style>
     </head>
 
@@ -54,13 +73,13 @@
                         </ul>
                     </li>
                 </ul>
-                <a href="./pages/donasi/donasi.html" target="_blank">
+                <a href="../../pages/donasi/donasi.html" target="_blank">
                     <button class="btn-nav">Donasi</button>
                 </a>
             </nav>
             <!-- content -->
-            <div class="content" style="margin: 48px">
-                <div>
+            <div class="content">
+                <div style="padding-top: 20px">
                     <p
                         style="
                             font-size: 24px;
@@ -73,64 +92,77 @@
                     <br />
                     <p style="text-align: center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Incidunt asperiores similique veritatis iste consequatur
-                        autem repellat. Ex maiores, sapiente ab unde totam
-                        voluptas debitis nostrum quae quaerat cumque veniam
-                        placeat voluptates temporibus distinctio voluptatem
-                        earum excepturi mollitia tempora. Temporibus reiciendis,
-                        aut blanditiis minus nam iste consequatur, provident rem
-                        commodi dolores quaerat. Eum qui quisquam magnam rem
-                        odio harum enim commodi, assumenda ipsam deserunt,
-                        recusandae sequi ab quas facilis? Deleniti beatae
-                        laudantium nam, soluta illo totam error rem, inventore
-                        tenetur, eaque aspernatur? Minus quam incidunt
-                        accusamus. Magni, molestiae ipsa quidem qui ducimus
-                        illum hic placeat corrupti, assumenda quos blanditiis,
-                        fuga ullam sed consequatur cum. Dolorem accusamus eum
-                        ratione laborum animi pariatur asperiores non hic
-                        temporibus! Perferendis, itaque repellendus nisi cum
-                        tempora fugit eligendi aut fuga voluptatum laborum
-                        excepturi, nostrum optio quam quibusdam ducimus
-                        aspernatur! Quaerat ducimus numquam doloremque, ipsum
-                        magni doloribus aliquam quisquam atque dolorem placeat,
-                        consequatur tenetur ipsam illo temporibus aperiam quod
-                        ex at maxime natus officia aliquid, nihil consectetur
-                        quas? Magnam cumque debitis soluta consequuntur ipsa,
-                        aperiam dolor quod maiores suscipit. Nemo necessitatibus
-                        beatae eveniet veniam corporis! Blanditiis culpa
-                        delectus velit quas quam. Provident recusandae
-                        architecto sed debitis. Voluptatibus consectetur
-                        doloribus amet molestias praesentium quo, impedit ad sed
-                        nemo.
+                        Magnam, nostrum optio, pariatur doloremque libero, hic
+                        veritatis in facere nisi quia ea recusandae? Minima
+                        totam aliquam, eum modi eos voluptatum. Illo sint
+                        temporibus adipisci qui blanditiis, a sequi, voluptatum
+                        suscipit ducimus repellat architecto, amet nostrum
+                        aliquam itaque minima dolores dignissimos debitis. Dicta
+                        fugiat quae sunt culpa. Beatae ipsa dolorum eligendi
+                        explicabo aliquam velit voluptate, quasi, nostrum eius
+                        ab unde cumque tempore a mollitia, aperiam voluptatibus
+                        inventore reiciendis expedita nam harum distinctio.
+                        Expedita porro aperiam explicabo exercitationem!
                     </p>
                 </div>
-                <div>
-                    <p style="font-size: 24px; font-weight: bold">
-                        Post Update
-                    </p>
-                    <br />
-                    <p style="line-height: 20px">
-                        <i class="fa-solid fa-newspaper"></i>
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                    <p style="line-height: 20px">
-                        <i class="fa-solid fa-newspaper"></i>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing.
-                    </p>
-                    <p style="line-height: 20px">
-                        <i class="fa-solid fa-newspaper"></i>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo, distinctio odio?
-                    </p>
-                </div>
-                <div>
-                    <p style="font-size: 24px; font-weight: bold">Kategori</p>
-                    <br />
-                    <p style="line-height: 20px">Agenda Kegiatan</p>
-                    <p style="line-height: 20px">Berita</p>
-                    <p style="line-height: 20px">Artikel</p>
-                    <p style="line-height: 20px">Galeri</p>
-                    <p style="line-height: 20px">Video</p>
+                <div style="padding-top: 20px; display: flex">
+                    <div style="width: 40%">
+                        <p style="font-size: 24px; font-weight: bold">
+                            Post Update
+                        </p>
+                        <br />
+                        <p class="contentPadding">
+                            <i class="fa-solid fa-newspaper"></i>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <p class="contentPadding">
+                            <i class="fa-solid fa-newspaper"></i>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                        </p>
+                        <p class="contentPadding">
+                            <i class="fa-solid fa-newspaper"></i>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Nemo, distinctio odio?
+                        </p>
+                    </div>
+                    <div>
+                        <p style="font-size: 24px; font-weight: bold">
+                            Kategori
+                        </p>
+                        <br />
+                        <div style="display: flex; flex-direction: column">
+                            <a
+                                class="contentPadding"
+                                style="color: blue"
+                                href=""
+                                >Agenda Kegiatan
+                            </a>
+                            <a
+                                class="contentPadding"
+                                style="color: blue"
+                                href=""
+                                >Berita
+                            </a>
+                            <a
+                                class="contentPadding"
+                                style="color: blue"
+                                href=""
+                                >Artikel
+                            </a>
+                            <a
+                                class="contentPadding"
+                                style="color: blue"
+                                href=""
+                                >Galeri
+                            </a>
+                            <a
+                                class="contentPadding"
+                                style="color: blue"
+                                href=""
+                                >Video
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <footer class="footer">

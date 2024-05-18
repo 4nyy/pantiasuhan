@@ -16,6 +16,20 @@
             link[rel="icon"] {
                 border-radius: 50%;
             }
+
+            .body {
+                display: flex;
+                justify-content: space-between;
+                margin-inline: 40px;
+            }
+            
+            .content h1 {
+                width: 100%;
+                background-color: #007bff;
+                color: white;
+                padding: 12px;
+                margin-bottom: 12px;
+            }
         </style>
     </head>
 
@@ -38,7 +52,9 @@
                             <li><a href="#">FIDYAH</a></li>
                         </ul>
                     </li>
-                    <li>TENTANG KAMI</li>
+                    <a href="../../pages/about/about.html">
+                        <li>TENTANG KAMI</li>
+                    </a>
                     <li>PROGRAM</li>
                     <li>
                         LAYANAN
@@ -54,10 +70,10 @@
                 </a>
             </nav>
             <!-- content -->
-            <div class="content" style="margin: 40px">
+            <div class="content">
+                <h1>Donasi</h1>
                 <!-- Body -->
-                <div class="body">
-                    <h1>Donasi</h1>
+                <div class="">
                     <p style="text-align: center">
                         <strong>
                             <em>Assalamualaikum warahmatullahi wabarakatuh</em>
@@ -70,11 +86,19 @@
                         mendukung semua program kegiatan Panti Asuhan,<br /><br />
                         caranya bisa disalurkan via scan QR Code dibawah ini.
                     </p>
-                    <img src="../assets/qr_donasi.png" alt="qr code" /><a
-                        href="www.qr-code-generator.com/solutions/text-qr-code/"
-                        style="cursor: default"
-                        rel="nofollow"
-                    ></a>
+                    <div
+                        style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        "
+                    >
+                        <img src="../../assets/qr_donasi.png" alt="qr code" /><a
+                            href="www.qr-code-generator.com/solutions/text-qr-code/"
+                            style="cursor: default"
+                            rel="nofollow"
+                        ></a>
+                    </div>
                 </div>
                 <!-- Generate div information about office address, phone number. then in the right section is map -->
                 <div class="body">
